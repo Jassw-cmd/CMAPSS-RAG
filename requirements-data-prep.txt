@@ -1,0 +1,5 @@
+# Optional dependencies for PDF/document ingestion workflows only.
+# Install these only if the corresponding preprocessing scripts import them.
+-r requirements.txt
+pypdf
+pymupdf4llm

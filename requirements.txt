@@ -1,0 +1,7 @@
+# Runtime dependencies for the CMAPSS Technical Q&A RAG application.
+# Python 3.10+ is required by current type annotations in the project.
+numpy
+pandas
+rank-bm25
+sentence-transformers
+requests

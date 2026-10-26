@@ -1,0 +1,31 @@
+﻿id,query,k,evidence_hit,evidence_mrr,evidence_precision,unsupported_retrieval_rate,first_evidence_rank
+rul_definition,What is remaining useful life (RUL)?,1,1,1.0,1.0,0.0,1
+wear_challenge,What is wear in the challenge problem?,1,1,1.0,1.0,0.0,1
+damage_propagation,How is damage propagation modeled?,1,1,1.0,1.0,0.0,1
+cmapss_definition,What is C-MAPSS?,1,1,1.0,1.0,0.0,1
+initial_wear,How is initial wear represented in the engine model?,1,1,1.0,1.0,0.0,1
+noise,What role does noise play in the simulated data?,1,1,1.0,1.0,0.0,1
+competition_dataset,How is the competition dataset generated?,1,0,0.0,0.0,1.0,
+arrhenius,What is the Arrhenius model?,1,1,1.0,1.0,0.0,1
+health_index,How is the health index calculated?,1,1,1.0,1.0,0.0,1
+system_model,What does the system model represent?,1,1,1.0,1.0,0.0,1
+rul_definition,What is remaining useful life (RUL)?,3,1,1.0,0.333333,0.666667,1
+wear_challenge,What is wear in the challenge problem?,3,1,1.0,1.0,0.0,1
+damage_propagation,How is damage propagation modeled?,3,1,1.0,0.333333,0.666667,1
+cmapss_definition,What is C-MAPSS?,3,1,1.0,0.666667,0.333333,1
+initial_wear,How is initial wear represented in the engine model?,3,1,1.0,0.666667,0.333333,1
+noise,What role does noise play in the simulated data?,3,1,1.0,1.0,0.0,1
+competition_dataset,How is the competition dataset generated?,3,1,0.5,0.333333,0.666667,2
+arrhenius,What is the Arrhenius model?,3,1,1.0,1.0,0.0,1
+health_index,How is the health index calculated?,3,1,1.0,1.0,0.0,1
+system_model,What does the system model represent?,3,1,1.0,1.0,0.0,1
+rul_definition,What is remaining useful life (RUL)?,5,1,1.0,0.2,0.8,1
+wear_challenge,What is wear in the challenge problem?,5,1,1.0,0.8,0.2,1
+damage_propagation,How is damage propagation modeled?,5,1,1.0,0.6,0.4,1
+cmapss_definition,What is C-MAPSS?,5,1,1.0,0.8,0.2,1
+initial_wear,How is initial wear represented in the engine model?,5,1,1.0,0.4,0.6,1
+noise,What role does noise play in the simulated data?,5,1,1.0,1.0,0.0,1
+competition_dataset,How is the competition dataset generated?,5,1,0.5,0.4,0.6,2
+arrhenius,What is the Arrhenius model?,5,1,1.0,0.8,0.2,1
+health_index,How is the health index calculated?,5,1,1.0,0.8,0.2,1
+system_model,What does the system model represent?,5,1,1.0,0.8,0.2,1

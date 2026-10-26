@@ -1,0 +1,52 @@
+{
+  "source_report": "D:\\New folder\\UROP\\test\\chatgpt rag cmapss\\src\\evidence_review_report_labeled.json",
+  "note": "Metrics use provisional labels and should not be treated as final until manually verified. The unanswerable check is not abstention accuracy.",
+  "counts": {
+    "all_queries": 12,
+    "answerable_queries": 10,
+    "unanswerable_queries": 2
+  },
+  "answerable_query_metrics": {
+    "1": {
+      "question_count": 10,
+      "evidence_hit_at_k": 0.9,
+      "evidence_mrr_at_k": 0.9,
+      "evidence_precision_at_k": 0.9,
+      "unsupported_retrieval_rate_at_k": 0.1,
+      "section_hit_at_k": 0.9
+    },
+    "3": {
+      "question_count": 10,
+      "evidence_hit_at_k": 1,
+      "evidence_mrr_at_k": 0.95,
+      "evidence_precision_at_k": 0.733333,
+      "unsupported_retrieval_rate_at_k": 0.266667,
+      "section_hit_at_k": 1
+    },
+    "5": {
+      "question_count": 10,
+      "evidence_hit_at_k": 1,
+      "evidence_mrr_at_k": 0.95,
+      "evidence_precision_at_k": 0.66,
+      "unsupported_retrieval_rate_at_k": 0.34,
+      "section_hit_at_k": 1
+    }
+  },
+  "unanswerable_query_checks": {
+    "1": {
+      "queries_with_any_chunk_labeled_evidence_relevant_rate": 0,
+      "chunks_labeled_evidence_relevant_rate": 0,
+      "interpretation": "Label-consistency check only; not a model abstention score."
+    },
+    "3": {
+      "queries_with_any_chunk_labeled_evidence_relevant_rate": 0,
+      "chunks_labeled_evidence_relevant_rate": 0,
+      "interpretation": "Label-consistency check only; not a model abstention score."
+    },
+    "5": {
+      "queries_with_any_chunk_labeled_evidence_relevant_rate": 0,
+      "chunks_labeled_evidence_relevant_rate": 0,
+      "interpretation": "Label-consistency check only; not a model abstention score."
+    }
+  }
+}
